@@ -10,3 +10,4 @@ langchain_openai
 langchain_experimental
 -e.
 gunicorn==20.1.0 
+sentence-transformers
