@@ -2,7 +2,7 @@
 from langchain.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
-
+from langchain.vectorstores import Pinecone
 
 #Extract Data From the PDF File
 def load_pdf_file(data):
